@@ -1,0 +1,49 @@
+.cont{
+
+background: linear-gradient(68deg,rgb(71, 163, 43) 50%,rgb(248, 245, 245) 50%);
+ opacity: 0.9;
+
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+
+}.d{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+}.de{
+    display: flex;
+  
+flex-direction: column;
+justify-content: center;
+
+padding-left: 30%;
+
+}.ph{
+
+    
+    position: relative;
+}span{
+    color: brown;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: large;
+}#contP{
+    image-resolution: 100%;
+    position: absolute;
+    bottom: 0%;
+    height: 89%;
+    left: 5%;
+    filter: drop-shadow(0px 0px 12px darkgreen);
+    filter: blur(4px);
+}#gr{
+    color: black;
+    font-family: cursive;
+}
+p{
+    font-size: larger;
+    font-weight: 400;
+    
+}#VK{
+    font-family: fantasy;
+}
