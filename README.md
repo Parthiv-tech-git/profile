@@ -38,7 +38,7 @@ I have improved my css  skills{flex, grid topices }.
  ## author
  - Parthiv kumar 
  - https://github.com/Parthiv-tech-git/profile 
-![link of application](https://profile-hazel-tau.vercel.app/)
+[link of application](https://profile-hazel-tau.vercel.app/)
  ---
  ## output 
 --
