@@ -12,8 +12,7 @@ const Proj = () => {
     
     <div className="b">
    
-    <div className="proj">
-     
+     <h1 className='h1'>projects</h1>
   
         <div className="pr"> 
           <img className='proj3' src={pho} alt="proffilee" />
@@ -50,7 +49,7 @@ const Proj = () => {
         </div>
    
    </div>
-    </div>
+  
   )
 }
 

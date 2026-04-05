@@ -1,34 +1,21 @@
-.sk{
-   background-color: whitesmoke;
-height: 100%;
-width: 100%;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr ;
-gap: 20px;
-border-radius: 4%;
-overflow: scroll;
-
-
-
-}.m9{
-    padding: 1%;
-
-border-radius: 2%;
-box-shadow: 2px 3px 5px rgb(58, 54, 54);
-margin: 2%;
-width: 68%;
-
+.m9{
+    width: 380px;
+background-color: white;
+box-sizing: border-box;
+padding: 10px;
+border-radius: 5%;
+}.sk{
+   background-color: rgba(241, 247, 247, 0.63);
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
 
 }.sk1{
-    width: 47%;
-    margin-left: 30%;
-    border-radius: 68%;
-    height: 48%;
-    display: block;
-  
-}.proi{
-    color: olivedrab;
+    width: 100%;
+    height: 50%;
+text-align: center;
+border-radius: 3%;
+}.u{
+    width: 100%;
     text-align: center;
-}.m9:hover{
-    transform: scale(1.1);
 }

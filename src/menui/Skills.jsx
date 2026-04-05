@@ -15,6 +15,7 @@ import sk8 from '../menui/photoo/c.jpeg'
 const Skills = () => {
   return (
     <div className="sk">
+      <h1 className='u'>Skills</h1>
         
         <div className="m9">
           <img className='sk1'src={sk} alt="" />

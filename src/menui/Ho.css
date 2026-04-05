@@ -1,0 +1,36 @@
+.cos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(68deg,rgb(249, 250, 248) 50%,hwb(106 12% 36%) 50%);
+    position: relative;
+    z-index: -1;
+
+}.me{
+height: 100%;
+width: 50%;
+ box-sizing: border-box;
+ padding-left: 3%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+color: ashgray;
+}.pho{
+height: 100%;
+
+display: flex;
+flex-wrap: wrap;
+
+ width:50vw;
+}#photoH{
+    
+height: 79%;
+position: relative;
+top: 10%;
+left: 5%;
+filter: blur(4px);
+
+}h1{
+    color: hwb(106 12% 36%);
+}
