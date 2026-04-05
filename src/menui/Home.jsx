@@ -1,0 +1,24 @@
+
+import React from 'react'
+import j from './j.png'
+import  './Ho.css'
+
+const Home = () => {
+  return (
+    <div className="cos">
+    <div className="me">
+      <h2>Hola ,This is  </h2>
+      <h1> Mr.D .Parthiv kumar</h1> 
+      <p>hey!, I am a mini Btech students ,currently I am purseing 4th semeter <br />
+        in computer science  enng at warangal dist ,Telangana state. And finally I am looking for intenship in forntend devlovement  </p>
+    </div>
+         <div className="pho">
+          <img id='photoH' src={j}  alt='imahrf'/>
+    
+         </div>
+        
+    </div>
+  )
+}
+
+export default  Home
