@@ -24,10 +24,15 @@ function App() {
            <li><Link to="/skills">skills</Link></li>      
       <li><Link to="/contact">contact</Link></li>
       </div>
-      
+       
     </div>
 
-   
+   <div className="rot">
+        <button><Link to="/about me">About me</Link></button>
+        <button><Link to="/projects">Projects</Link></button>
+        <button><Link to="/skills">Skills</Link></button>
+        <button><Link to="/contact">contact me</Link></button>
+        </div>
     
     
     
