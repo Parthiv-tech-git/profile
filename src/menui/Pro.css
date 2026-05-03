@@ -1,27 +1,46 @@
-.pr{
-    width: 380px;
-    margin: 3em;
- background-color: white;
-     object-fit: contain;
-     padding: 10px;
-transition: 2s;
-}.proj3{
-    width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+.pr {
+    flex: 1 1 300px; /* responsive card width */
+    max-width: 350px;
+    margin: 1em;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-
-}.b{
+/* container */
+.b {
     display: flex;
     flex-wrap: wrap;
- gap: 20px ;   
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(241, 244, 247, 0.815);
+}
 
-     background-color: rgba(241, 244, 247, 0.815);
+/* image or content inside */
+.proj3 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-}.h1{
+/* title */
+.section-title {
     text-align: center;
     width: 100%;
-    margin-top: 4%;
-}.pr:hover{
-    transform: scale(1.2);
+    margin: 40px 0 20px;
+}
+
+/* hover effect (clean) */
+.pr:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+@media (max-width: 768px) {
+    .pr {
+        flex: 1 1 100%;
+        max-width: 90%;
+    }
 }

@@ -3,7 +3,7 @@
 background: linear-gradient(68deg,rgb(71, 163, 43) 50%,rgb(248, 245, 245) 50%);
  opacity: 0.9;
 
-    height: 100%;
+    height: 100vh;
     width: 100%;
     border-radius: 5%;
 
@@ -46,4 +46,33 @@ p{
     
 }#VK{
     font-family: fantasy;
+}
+@media (max-width: 768px) {
+    .d {
+        grid-template-columns: 1fr; /* stack layout */
+    }
+
+    .de {
+        text-align: center;
+        padding: 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont {
+        border-radius: 0;
+       background-color: rgba(213, 210, 216, 0.911);
+    }
+
+    #contP {
+        max-width: 60%;
+        display: none;
+    }
+    .ph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
 }

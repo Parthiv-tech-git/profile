@@ -6,7 +6,6 @@ This is a profile ,it describe about of me and my skills.
 ---
 It  describe my potenial
 ---
-
  ## technologies
 I used to bulid this  application by using of React Js, for styling the application with css .
 
@@ -32,6 +31,7 @@ showcase my skills
 --
 
 I have improved my css  skills{flex, grid topices }.
+after some days i used chatgpt for improve the desgin of alliplication
 
 
 -
